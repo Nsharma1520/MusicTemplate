@@ -8,3 +8,7 @@ a:active {
     text-decoration: underline;
     color: blue;
   }
+
+.Menu:active{
+    background-color: wheat;
+}
