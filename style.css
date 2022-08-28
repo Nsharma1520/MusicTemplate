@@ -49,12 +49,13 @@
 }
 
 .artistName a img{
-    width: 4vw; border-radius: 2vw
+    width: 4.5vw; border-radius: 2vw
 }
 
 .songItems{
     width: 10rem;
     height: fit-content;
+    border-radius: 15%;
 }
 
 .likeSongbtn{
@@ -98,6 +99,10 @@
 
 .friendPic{
     width: 20%;
+}
+
+.filterBtn{
+   margin-top: 4px;
 }
 
 .frndSongImg {
