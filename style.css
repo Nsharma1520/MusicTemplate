@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     color: white;
+
 }
 
 .left-box{
@@ -14,10 +15,16 @@
 
 .left-menu ul li{
     margin-top: 0px;
+
 }
 
 .left-menu ul li span{
-    font-size: 1vw;
+    font-size: 15px;
+    
+}
+
+.logOutbtn:hover{
+    background: green;
 }
 
 .left-menu ul li img{
@@ -48,14 +55,34 @@
     margin-left: 10px;
 }
 
-.artistName a img{
-    width: 4.5vw; border-radius: 2vw
+.artistName{
+    width: 7px;
+     border-radius: 5px;
+}
+.artistName img{
+    width: 65px;
+     border-radius: 5px;
+}
+
+.artistName p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.artistName a{
+    text-decoration: none;
+    color: white;
 }
 
 .songItems{
     width: 10rem;
     height: fit-content;
     border-radius: 15%;
+}
+
+.songName:hover{
+    color: blueviolet;
 }
 
 .likeSongbtn{
